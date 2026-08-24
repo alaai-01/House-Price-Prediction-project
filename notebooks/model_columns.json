@@ -1,0 +1,100 @@
+{
+  "numeric_features": [
+    "area_sqft",
+    "floor_num",
+    "bathroom",
+    "balcony",
+    "car_parking",
+    "bhk"
+  ],
+  "categorical_features": [
+    "location_grouped",
+    "Furnishing",
+    "Transaction",
+    "Ownership",
+    "facing"
+  ],
+  "categorical_options": {
+    "location_grouped": [
+      "agra",
+      "ahmedabad",
+      "aurangabad",
+      "badlapur",
+      "bangalore",
+      "bhiwadi",
+      "bhubaneswar",
+      "chandigarh",
+      "chennai",
+      "coimbatore",
+      "dehradun",
+      "faridabad",
+      "ghaziabad",
+      "goa",
+      "greater-noida",
+      "guntur",
+      "gurgaon",
+      "guwahati",
+      "hyderabad",
+      "jaipur",
+      "jamshedpur",
+      "kalyan",
+      "kanpur",
+      "kochi",
+      "kolkata",
+      "lucknow",
+      "mangalore",
+      "mohali",
+      "mumbai",
+      "nagpur",
+      "nashik",
+      "navi-mumbai",
+      "new-delhi",
+      "noida",
+      "other",
+      "palghar",
+      "panchkula",
+      "patna",
+      "pune",
+      "raipur",
+      "ranchi",
+      "siliguri",
+      "sonipat",
+      "surat",
+      "thane",
+      "thrissur",
+      "vadodara",
+      "varanasi",
+      "vijayawada",
+      "visakhapatnam",
+      "zirakpur"
+    ],
+    "Furnishing": [
+      "Furnished",
+      "Semi-Furnished",
+      "Unfurnished"
+    ],
+    "Transaction": [
+      "New Property",
+      "Other",
+      "Rent/Lease",
+      "Resale"
+    ],
+    "Ownership": [
+      "Co-operative Society",
+      "Freehold",
+      "Leasehold",
+      "Power Of Attorney"
+    ],
+    "facing": [
+      "East",
+      "North",
+      "North - East",
+      "North - West",
+      "South",
+      "South - East",
+      "South -West",
+      "West"
+    ]
+  },
+  "sklearn_version": "1.6.1"
+}
